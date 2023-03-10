@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b02d6008abb7d94fbb84d2f8b9e700f, type: 3}
+  m_Name: Shotgun
+  m_EditorClassIdentifier: 
+  automatic: 0
+  maxBulletAmount: 6
+  bullets: 3
+  reloadTime: 4
+  shootingCooldown: 1
+  maxDistance: 45
+  errorMargin: 0
+  jumpErrorIncrease: 0.2
+  moveErrorIncrease: 0.1
+  timeOnMaxError: 1
+  timeDecreaseMultiplier: 5
+  screenPosition: {x: 0.249, y: -0.286, z: 0.279}
+  aimingPosition: {x: 0, y: -0.19800007, z: 0.239}
+  shootPoint: {x: 0, y: 0.139, z: 0.67}
+  weaponPrefab: {fileID: 152957364829650957, guid: 2718cc4e35dabfb4c8d6c0df3bd1dfca, type: 3}
+  shootClip: {fileID: 8300000, guid: 6349a640dc07c3b4389c205f5b5a5145, type: 3}
+  reloadClip: {fileID: 8300000, guid: af63539a5e39c99489395bdea2471f60, type: 3}
+  reloading: 1
